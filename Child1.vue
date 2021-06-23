@@ -1,7 +1,6 @@
 <template>
   <div class="child">
-        <div class="grid-content bg-purple-light">
-			
+        <div >
 			<el-select v-model="select_value" placeholder="选集装箱" class="selection"  @change="el_select()">
 			  <el-option
 			    v-for="item in select_options"
@@ -15,6 +14,7 @@
 		<p class="time_end">{{time_end}}</p>
 		<p class="time_start">{{time_start}}</p>
 		<p class="time_mid">{{time_mid}}</p>
+		
         </div>
 
   </div>
