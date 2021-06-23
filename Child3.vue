@@ -1,6 +1,6 @@
 <template>
   <div class="child">
-        <div class="grid-content bg-purple-light">
+        <div >
 			
 			<el-select v-model="select_value" placeholder="选电池" class="selection"  @change="el_select()">
 			  <el-option

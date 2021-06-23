@@ -1,7 +1,6 @@
 <template>
   <div class="child">
-
-        <div class="grid-content bg-purple-light">
+        <div >
 			<el-select v-model="select_value" placeholder="选传感器" class="selection"  @change="el_select()">
 			  <el-option
 			    v-for="item in select_options"
